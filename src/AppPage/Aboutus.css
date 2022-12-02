@@ -1,0 +1,15 @@
+.aboutus {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(17, 137, 167);
+    font-size: x-large;
+}
+
+.link{
+    font-size: large;
+}

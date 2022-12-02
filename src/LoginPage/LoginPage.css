@@ -1,0 +1,91 @@
+.heading{
+    margin-bottom: 35px;
+    font-size: xx-large;
+    font-weight: 700;
+    color: rgb(17, 137, 167);
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.email {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: black;
+    border-color: grey;
+    color: grey;
+}
+
+.email:hover{
+    border-color: rgb(17, 137, 167);
+}
+
+.emial:focus {
+    border-color: rgb(17, 137, 167);
+}
+
+.email::placeholder {
+    text-align: center;
+    font-size: large;
+}
+
+.password {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: black;
+    color: grey;
+}
+
+.password:hover{
+    border-color: rgb(17, 137, 167);
+}
+
+.password::placeholder {
+    text-align: center;
+    font-size: large;
+}
+
+.button {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: rgb(17, 137, 167);;
+    border-radius: 5px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-color: rgb(113, 205, 228);
+    color: rgb(0, 0, 0);
+}
+
+.goback{
+    margin-top: 35px;
+}

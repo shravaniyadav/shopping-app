@@ -1,0 +1,45 @@
+.apppage {
+    height: 10vh;
+    background-color: rgb(0, 0, 8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 9px;
+    text-decoration: none;
+    color: rgb(17, 137, 167);
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.about{
+    padding: 13px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.image {
+    height: 90vh;
+    width: 100%;
+    background-image: url("shoppingappimage.jpg");
+    filter: blur(2px);
+    filter:contrast(90%);
+    filter: brightness(50%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login{
+    padding: 13px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.login:hover {
+    color: rgb(17, 137, 167);
+}
