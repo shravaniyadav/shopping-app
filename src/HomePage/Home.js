@@ -1,22 +1,13 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-// import "./HomePage.css"
-import "./Home.css"
+import React from "react";
+import "./Home.css";
+import NavBar from "./NavBar";
 
 const Home = () => {
-    return ( 
-        <div>
-            <div className='navbar'>
-                <Link className='home' to='/home'>Home</Link>
-                <Link className='electronics' to='/electronics'>Electronics</Link>
-                <Link className='clothing' to='/clothing'>Clothing & Jewelery</Link>
-                <Link className='hardware' to='/hardware'>Hardware</Link>
-                <Link className='food' to='/food'>Food & Groceries</Link>
-                <Link className='stationary' to='/Stationary'>Stationary</Link>
-                <Link className='logout' to='/'>logout</Link>
-            </div>
-            <div className='body'>
-            <div
+  return (
+    <div>
+      <NavBar />
+      <div className="body">
+        <div
           id="carouselExampleCaptions"
           className="carousel slide"
           data-bs-ride="carousel"
@@ -100,9 +91,9 @@ const Home = () => {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-            </div>
-        </div>
-     );
-}
- 
+      </div>
+    </div>
+  );
+};
+
 export default Home;

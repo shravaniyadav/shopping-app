@@ -1,33 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css";
+import NavBar from "./NavBar";
 
 const Stationary = () => {
   return (
     <div>
-      <div className="navbar">
-        <Link className="home" to="/home">
-          Home
-        </Link>
-        <Link className="electronics" to="/electronics">
-          Electronics
-        </Link>
-        <Link className="clothing" to="/clothing">
-          Clothing & Jewelery
-        </Link>
-        <Link className="hardware" to="/hardware">
-          Hardware
-        </Link>
-        <Link className="food" to="/food">
-          Food & Groceries
-        </Link>
-        <Link className="stationary" to="/Stationary">
-          Stationary
-        </Link>
-        <Link className="logout" to="/">
-          logout
-        </Link>
-      </div>
+      <NavBar />
       <div className="body">
         <div className="cards">
           <div
